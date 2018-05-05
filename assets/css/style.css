@@ -1,0 +1,53 @@
+body {
+  background: url("bluepat.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: x-large;
+  color: azure;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#splashscreen {
+  height: 100vh;
+  width: 100%;
+  background: url("../images/bluepat.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+}
+#start {
+  color:aliceblue;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 100px;
+ 
+}
+.wc {
+  color: aliceblue;
+  margin-top: 150px;
+
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+h2 {
+  color: black;
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+  font-size: large;
+}
+.subbut {
+  text-align: center;
+  margin-top: 15px;
+}
