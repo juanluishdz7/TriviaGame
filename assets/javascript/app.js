@@ -23,9 +23,8 @@ function decrement() {
   }
 }
 
-
 function results() {
-  if (document.getElementById("q1b").checked) {
+  if (document.getElementById("q1b").checked)  {
     correctA++;
   }
   else {
@@ -55,6 +54,7 @@ function results() {
   else {
     incorrectA++;
   }
+
   $("#correct").html(correctA);
   $("#incorr").html(incorrectA);
 }
